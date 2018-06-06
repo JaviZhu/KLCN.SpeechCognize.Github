@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ApplicationTestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KLCN_Tab_SpeechRecognition">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="500" />
+    <Property Name="AttachmentURI" Type="varchar" MaxLength="500" />
+    <Property Name="AttachmentContentType" Type="varchar" MaxLength="50" />
+    <Property Name="MsgId" Type="varchar" MaxLength="100" />
+    <Property Name="UserobjectId" Type="varchar" MaxLength="100" />
+    <Property Name="PhysicsURI" Type="varchar" MaxLength="500" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Account" Type="varchar" MaxLength="50" />
+    <Property Name="CurrentDirectory" Type="varchar" MaxLength="500" />
+    <Property Name="Datetime" Type="datetime" />
+    <Property Name="Content" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="ApplicationTestModelStoreContainer">
+    <EntitySet Name="KLCN_Tab_SpeechRecognition" EntityType="Self.KLCN_Tab_SpeechRecognition" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

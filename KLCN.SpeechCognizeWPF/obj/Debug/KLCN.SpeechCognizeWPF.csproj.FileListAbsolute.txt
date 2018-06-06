@@ -1,0 +1,15 @@
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\bin\Debug\KLCN.SpeechCognizeWPF.exe
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\bin\Debug\KLCN.SpeechCognizeWPF.pdb
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\MainWindow.g.cs
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\App.g.cs
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF_MarkupCompile.cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF_MarkupCompile.lref
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\MainWindow.baml
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.g.resources
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.Properties.Resources.resources
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.csproj.GenerateResource.Cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.csproj.CoreCompileInputs.cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.exe
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.pdb
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\bin\Debug\KLCN.SpeechCognizeWPF.exe.config
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeWPF\obj\Debug\KLCN.SpeechCognizeWPF.csprojResolveAssemblyReference.cache

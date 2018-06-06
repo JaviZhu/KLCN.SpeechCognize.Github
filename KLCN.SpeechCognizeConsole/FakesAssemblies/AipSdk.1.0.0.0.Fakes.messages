@@ -1,0 +1,7 @@
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate stub for Baidu.Aip.Auth: type has no family visible contructors.
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate shim for Baidu.Aip.AipHttpRequest+<>c: type is not supported because of internal limitations.
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate shim for Baidu.Aip.AipHttpRequest+BodyFormat: type is an enum.
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate shim for Baidu.Aip.AipServiceBase+<>c: type is not supported because of internal limitations.
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate shim for Baidu.Aip.AipServiceBase+<>c__DisplayClass34_0: type is not supported because of internal limitations.
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate shim for Baidu.Aip.Auth+<>c: type is not supported because of internal limitations.
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognizeConsole\Fakes\AipSdk.fakes : warning : Cannot generate shim for Baidu.Aip.Utils+<>c: type is not supported because of internal limitations.

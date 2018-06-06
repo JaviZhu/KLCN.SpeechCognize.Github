@@ -1,0 +1,14 @@
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\bin\Debug\KLCN.SpeechCognize.exe.config
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\bin\Debug\KLCN.SpeechCognize.exe
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\bin\Debug\KLCN.SpeechCognize.pdb
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize.csprojResolveAssemblyReference.cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\MainWindow.g.cs
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\App.g.cs
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize_MarkupCompile.cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize_MarkupCompile.lref
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\MainWindow.baml
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize.g.resources
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize.Properties.Resources.resources
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize.csproj.GenerateResource.Cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize.exe
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.SpeechCognize\obj\Debug\KLCN.SpeechCognize.pdb

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.props" Condition="Exists('..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A366BAF-7995-451D-99CD-3B82304A8C9D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>KLCN.SpeechCognizeConsole</RootNamespace>
+    <AssemblyName>KLCN.SpeechCognizeConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AipSdk, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Empty\AipSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="AipSdk.1.0.0.0.Fakes">
+      <HintPath>FakesAssemblies\AipSdk.1.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bond, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bond.Core.CSharp.4.2.1\lib\net45\Bond.dll</HintPath>
+    </Reference>
+    <Reference Include="Bond.Attributes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bond.Core.CSharp.4.2.1\lib\net45\Bond.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bond.IO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bond.Core.CSharp.4.2.1\lib\net45\Bond.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Bond.JSON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bond.Runtime.CSharp.4.2.1\lib\net45\Bond.JSON.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bing.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bing.Speech.2.0.2\lib\net45\Microsoft.Bing.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bing.Speech, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bing.Speech.2.0.2\lib\net45\Microsoft.Bing.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Slions.Microsoft.Speech.11.1.0.0\lib\Microsoft.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Speech.11.0.0.0.Fakes">
+      <HintPath>FakesAssemblies\Microsoft.Speech.11.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Threading, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.Threading.14.1.131\lib\net45\Microsoft.VisualStudio.Threading.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Validation, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.Validation.14.1.111\lib\net45\Microsoft.VisualStudio.Validation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Empty\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccessDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AccessDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccessDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AccessDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccessDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="KLCN_Tab_SpeechCalculate.cs">
+      <DependentUpon>AccessDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KLCN_Tab_SpeechRecognition.cs">
+      <DependentUpon>AccessDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="AccessDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AccessDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AccessDB.edmx.diagram">
+      <DependentUpon>AccessDB.edmx</DependentUpon>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Fakes Include="Fakes\Microsoft.Speech.fakes" />
+    <Fakes Include="Fakes\AipSdk.fakes" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccessDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AccessDB.Context.cs</LastGenOutput>
+      <DependentUpon>AccessDB.edmx</DependentUpon>
+    </Content>
+    <Content Include="AccessDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AccessDB.edmx</DependentUpon>
+      <LastGenOutput>AccessDB.cs</LastGenOutput>
+    </Content>
+    <Content Include="Empty\1.wav" />
+    <Content Include="Empty\2.wav" />
+    <Content Include="Empty\AipSdk.dll" />
+    <Content Include="Empty\Newtonsoft.Json.dll" />
+    <Content Include="Empty\VoiceMessage.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <Guid>{C866CA3A-32F7-11D2-9602-00C04F8EE628}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KLCN.CognizeLibrary\KLCN.CognizeLibrary.csproj">
+      <Project>{0f658573-d64a-49d8-9019-f4b715f16bec}</Project>
+      <Name>KLCN.CognizeLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.props'))" />
+    <Error Condition="!Exists('..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.targets'))" />
+  </Target>
+  <Import Project="..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.targets" Condition="Exists('..\packages\Bond.CSharp.4.2.1\build\Bond.CSharp.targets')" />
+</Project>

@@ -1,0 +1,2354 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AipSdk.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimBase">
+            <summary>Shim type of Baidu.Aip.Face.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimBase.#ctor(Baidu.Aip.Face.Base)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimBase.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimBase.ConstructorStringString">
+            <summary>Sets the shim of Base.Base(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimBase.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimFace">
+            <summary>Shim type of Baidu.Aip.Face.Face</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimFace.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimFace.#ctor(Baidu.Aip.Face.Face)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimFace.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.AllInstances.FaceDetectByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Face.FaceDetect(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.AllInstances.FaceMatchIEnumerableOfByteArrayDictionaryOfStringString">
+            <summary>Sets the shim of Face.FaceMatch(IEnumerable`1&lt;Byte[]&gt; images, Dictionary`2&lt;String,String&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.AllInstances.GroupGet">
+            <summary>Sets the shim of Face.get_Group()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.AllInstances.GroupSetGroup">
+            <summary>Sets the shim of Face.set_Group(Group value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.AllInstances.UserGet">
+            <summary>Sets the shim of Face.get_User()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.AllInstances.UserSetUser">
+            <summary>Sets the shim of Face.set_User(User value)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimFace.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimFace.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.ConstructorStringString">
+            <summary>Sets the shim of Face.Face(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.FaceDetectByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Face.FaceDetect(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.FaceMatchIEnumerableOfByteArrayDictionaryOfStringString">
+            <summary>Sets the shim of Face.FaceMatch(IEnumerable`1&lt;Byte[]&gt; images, Dictionary`2&lt;String,String&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.GroupGet">
+            <summary>Sets the shim of Face.get_Group()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.GroupSetGroup">
+            <summary>Sets the shim of Face.set_Group(Group value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.UserGet">
+            <summary>Sets the shim of Face.get_User()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimFace.UserSetUser">
+            <summary>Sets the shim of Face.set_User(User value)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimGroup">
+            <summary>Shim type of Baidu.Aip.Face.Group</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimGroup.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimGroup.#ctor(Baidu.Aip.Face.Group)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.AddUserIEnumerableOfStringStringString">
+            <summary>Sets the shim of Group.AddUser(IEnumerable`1&lt;String&gt; groupIds, String uid, String srcGroupId)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimGroup.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.AllInstances.AddUserIEnumerableOfStringStringString">
+            <summary>Sets the shim of Group.AddUser(IEnumerable`1&lt;String&gt; groupIds, String uid, String srcGroupId)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.AllInstances.DeleteUserIEnumerableOfStringString">
+            <summary>Sets the shim of Group.DeleteUser(IEnumerable`1&lt;String&gt; groupIds, String uid)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.AllInstances.GetAllGroupsInt32Int32">
+            <summary>Sets the shim of Group.GetAllGroups(Int32 start, Int32 end)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.AllInstances.GetUsersStringInt32Int32">
+            <summary>Sets the shim of Group.GetUsers(String groupId, Int32 start, Int32 end)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimGroup.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimGroup.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.ConstructorStringString">
+            <summary>Sets the shim of Group.Group(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.DeleteUserIEnumerableOfStringString">
+            <summary>Sets the shim of Group.DeleteUser(IEnumerable`1&lt;String&gt; groupIds, String uid)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.GetAllGroupsInt32Int32">
+            <summary>Sets the shim of Group.GetAllGroups(Int32 start, Int32 end)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimGroup.GetUsersStringInt32Int32">
+            <summary>Sets the shim of Group.GetUsers(String groupId, Int32 start, Int32 end)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimUser">
+            <summary>Shim type of Baidu.Aip.Face.User</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimUser.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimUser.#ctor(Baidu.Aip.Face.User)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.ShimUser.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.DeleteString">
+            <summary>Sets the shim of User.Delete(String uid)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.DeleteStringIEnumerableOfString">
+            <summary>Sets the shim of User.Delete(String uid, IEnumerable`1&lt;String&gt; groupIds)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.GetInfoString">
+            <summary>Sets the shim of User.GetInfo(String uid)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.IdentifyByteArrayIEnumerableOfStringInt32Int32IEnumerableOfString">
+            <summary>Sets the shim of User.Identify(Byte[] image, IEnumerable`1&lt;String&gt; groupIds, Int32 userTopNum, Int32 faceTopNum, IEnumerable`1&lt;String&gt; extFileds)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.RegisterByteArrayStringStringIEnumerableOfStringString">
+            <summary>Sets the shim of User.Register(Byte[] image, String uid, String userInfo, IEnumerable`1&lt;String&gt; groupIds, String actionType)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.UpdateByteArrayStringStringStringString">
+            <summary>Sets the shim of User.Update(Byte[] image, String uid, String groupId, String userInfo, String actionType)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.AllInstances.VerifyByteArrayStringIEnumerableOfStringInt32IEnumerableOfString">
+            <summary>Sets the shim of User.Verify(Byte[] image, String uid, IEnumerable`1&lt;String&gt; groupIds, Int32 topNum, IEnumerable`1&lt;String&gt; extFileds)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimUser.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.ShimUser.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.ConstructorStringString">
+            <summary>Sets the shim of User.User(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.DeleteString">
+            <summary>Sets the shim of User.Delete(String uid)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.DeleteStringIEnumerableOfString">
+            <summary>Sets the shim of User.Delete(String uid, IEnumerable`1&lt;String&gt; groupIds)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.GetInfoString">
+            <summary>Sets the shim of User.GetInfo(String uid)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.IdentifyByteArrayIEnumerableOfStringInt32Int32IEnumerableOfString">
+            <summary>Sets the shim of User.Identify(Byte[] image, IEnumerable`1&lt;String&gt; groupIds, Int32 userTopNum, Int32 faceTopNum, IEnumerable`1&lt;String&gt; extFileds)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.RegisterByteArrayStringStringIEnumerableOfStringString">
+            <summary>Sets the shim of User.Register(Byte[] image, String uid, String userInfo, IEnumerable`1&lt;String&gt; groupIds, String actionType)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.UpdateByteArrayStringStringStringString">
+            <summary>Sets the shim of User.Update(Byte[] image, String uid, String groupId, String userInfo, String actionType)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.ShimUser.VerifyByteArrayStringIEnumerableOfStringInt32IEnumerableOfString">
+            <summary>Sets the shim of User.Verify(Byte[] image, String uid, IEnumerable`1&lt;String&gt; groupIds, Int32 topNum, IEnumerable`1&lt;String&gt; extFileds)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.StubBase">
+            <summary>Stub type of Baidu.Aip.Face.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubBase.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.InitializeStub">
+            <summary>Initializes a new instance of type StubBase</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubBase.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubBase.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubBase.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubBase.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.StubFace">
+            <summary>Stub type of Baidu.Aip.Face.Face</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubFace.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubFace.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubFace.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.InitializeStub">
+            <summary>Initializes a new instance of type StubFace</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubFace.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubFace.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubFace.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubFace.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubFace.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubFace.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.StubGroup">
+            <summary>Stub type of Baidu.Aip.Face.Group</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubGroup.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubGroup.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubGroup.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.InitializeStub">
+            <summary>Initializes a new instance of type StubGroup</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubGroup.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubGroup.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubGroup.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubGroup.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubGroup.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubGroup.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Face.Fakes.StubUser">
+            <summary>Stub type of Baidu.Aip.Face.User</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubUser.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubUser.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubUser.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.InitializeStub">
+            <summary>Initializes a new instance of type StubUser</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubUser.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Face.Fakes.StubUser.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubUser.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubUser.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Face.Fakes.StubUser.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Face.Fakes.StubUser.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipException">
+            <summary>Shim type of Baidu.Aip.AipException</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipException.#ctor(Baidu.Aip.AipException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.AllInstances.CodeGet">
+            <summary>Sets the shim of AipException.get_Code()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.AllInstances.CodeSetInt32">
+            <summary>Sets the shim of AipException.set_Code(Int32 value)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.CodeGet">
+            <summary>Sets the shim of AipException.get_Code()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.CodeSetInt32">
+            <summary>Sets the shim of AipException.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.Constructor">
+            <summary>Sets the shim of AipException.AipException()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.ConstructorInt32String">
+            <summary>Sets the shim of AipException.AipException(Int32 code, String message)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.ConstructorString">
+            <summary>Sets the shim of AipException.AipException(String message)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipException.TokenExceptionString">
+            <summary>Sets the shim of AipException.TokenException(String message)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipHttpRequest">
+            <summary>Shim type of Baidu.Aip.AipHttpRequest</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipHttpRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipHttpRequest.#ctor(Baidu.Aip.AipHttpRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.GenerateCloudRequestStringString">
+            <summary>Sets the shim of AipHttpRequest.GenerateCloudRequest(String ak, String sk)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.GenerateDevWebRequestString">
+            <summary>Sets the shim of AipHttpRequest.GenerateDevWebRequest(String token)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.GenerateSpeechRequest">
+            <summary>Sets the shim of AipHttpRequest.GenerateSpeechRequest()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.GeneratedRequestGet">
+            <summary>Sets the shim of AipHttpRequest.get_GeneratedRequest()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.GeneratedRequestSetHttpWebRequest">
+            <summary>Sets the shim of AipHttpRequest.set_GeneratedRequest(HttpWebRequest value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.ProcessHttpRequestHttpWebRequest">
+            <summary>Sets the shim of AipHttpRequest.ProcessHttpRequest(HttpWebRequest webRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.AllInstances.UriWithQueryGet">
+            <summary>Sets the shim of AipHttpRequest.get_UriWithQuery()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipHttpRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipHttpRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.Constructor">
+            <summary>Sets the shim of AipHttpRequest.AipHttpRequest()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.ConstructorString">
+            <summary>Sets the shim of AipHttpRequest.AipHttpRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.GenerateCloudRequestStringString">
+            <summary>Sets the shim of AipHttpRequest.GenerateCloudRequest(String ak, String sk)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.GenerateDevWebRequestString">
+            <summary>Sets the shim of AipHttpRequest.GenerateDevWebRequest(String token)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.GenerateSpeechRequest">
+            <summary>Sets the shim of AipHttpRequest.GenerateSpeechRequest()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.GeneratedRequestGet">
+            <summary>Sets the shim of AipHttpRequest.get_GeneratedRequest()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.GeneratedRequestSetHttpWebRequest">
+            <summary>Sets the shim of AipHttpRequest.set_GeneratedRequest(HttpWebRequest value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.ProcessHttpRequestHttpWebRequest">
+            <summary>Sets the shim of AipHttpRequest.ProcessHttpRequest(HttpWebRequest webRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipHttpRequest.UriWithQueryGet">
+            <summary>Sets the shim of AipHttpRequest.get_UriWithQuery()</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipServiceBase">
+            <summary>Shim type of Baidu.Aip.AipServiceBase</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.#ctor(Baidu.Aip.AipServiceBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.ApiKeyGet">
+            <summary>Sets the shim of AipServiceBase.get_ApiKey()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.ApiKeySetString">
+            <summary>Sets the shim of AipServiceBase.set_ApiKey(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.CheckNotNullObjectString">
+            <summary>Sets the shim of AipServiceBase.CheckNotNull(Object obj, String name)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.DebugLogGet">
+            <summary>Sets the shim of AipServiceBase.get_DebugLog()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.DebugLogSetBoolean">
+            <summary>Sets the shim of AipServiceBase.set_DebugLog(Boolean value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.DoAuthorization">
+            <summary>Sets the shim of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.ExpireAtGet">
+            <summary>Sets the shim of AipServiceBase.get_ExpireAt()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.ExpireAtSetDateTime">
+            <summary>Sets the shim of AipServiceBase.set_ExpireAt(DateTime value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.ImagesToParamsIEnumerableOfByteArray">
+            <summary>Sets the shim of AipServiceBase.ImagesToParams(IEnumerable`1&lt;Byte[]&gt; images)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.LogString">
+            <summary>Sets the shim of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.NeetAuth">
+            <summary>Sets the shim of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.PostActionAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.PreAction">
+            <summary>Sets the shim of AipServiceBase.PreAction()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.SecretKeyGet">
+            <summary>Sets the shim of AipServiceBase.get_SecretKey()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.SecretKeySetString">
+            <summary>Sets the shim of AipServiceBase.set_SecretKey(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.SendRequetAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.SendRequet(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.SendRequetRawAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.SendRequetRaw(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.StrJoinIEnumerableOfStringString">
+            <summary>Sets the shim of AipServiceBase.StrJoin(IEnumerable`1&lt;String&gt; data, String sep)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.TokenGet">
+            <summary>Sets the shim of AipServiceBase.get_Token()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.AllInstances.TokenSetString">
+            <summary>Sets the shim of AipServiceBase.set_Token(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ApiKeyGet">
+            <summary>Sets the shim of AipServiceBase.get_ApiKey()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ApiKeySetString">
+            <summary>Sets the shim of AipServiceBase.set_ApiKey(String value)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.CheckNotNullObjectString">
+            <summary>Sets the shim of AipServiceBase.CheckNotNull(Object obj, String name)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ConstructorStringString">
+            <summary>Sets the shim of AipServiceBase.AipServiceBase(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.DebugLogGet">
+            <summary>Sets the shim of AipServiceBase.get_DebugLog()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.DebugLogSetBoolean">
+            <summary>Sets the shim of AipServiceBase.set_DebugLog(Boolean value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.DoAuthorization">
+            <summary>Sets the shim of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ExpireAtGet">
+            <summary>Sets the shim of AipServiceBase.get_ExpireAt()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ExpireAtSetDateTime">
+            <summary>Sets the shim of AipServiceBase.set_ExpireAt(DateTime value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ImagesToParamsIEnumerableOfByteArray">
+            <summary>Sets the shim of AipServiceBase.ImagesToParams(IEnumerable`1&lt;Byte[]&gt; images)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.LogString">
+            <summary>Sets the shim of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.NeetAuth">
+            <summary>Sets the shim of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.PostActionAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.PreAction">
+            <summary>Sets the shim of AipServiceBase.PreAction()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.SecretKeyGet">
+            <summary>Sets the shim of AipServiceBase.get_SecretKey()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.SecretKeySetString">
+            <summary>Sets the shim of AipServiceBase.set_SecretKey(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.SendRequetAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.SendRequet(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.SendRequetRawAipHttpRequest">
+            <summary>Sets the shim of AipServiceBase.SendRequetRaw(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType">
+            <summary>Shim type of Baidu.Aip.AipServiceBase+Type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.#ctor(Baidu.Aip.AipServiceBase.Type)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.AllInstances.UrlGet">
+            <summary>Sets the shim of Type.get_Url()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.AllInstances.UrlSetString">
+            <summary>Sets the shim of Type.set_Url(String value)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.ConstructorString">
+            <summary>Sets the shim of Type.Type(String url)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.UrlGet">
+            <summary>Sets the shim of Type.get_Url()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.ShimType.UrlSetString">
+            <summary>Sets the shim of Type.set_Url(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.StrJoinIEnumerableOfStringString">
+            <summary>Sets the shim of AipServiceBase.StrJoin(IEnumerable`1&lt;String&gt; data, String sep)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.TokenGet">
+            <summary>Sets the shim of AipServiceBase.get_Token()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAipServiceBase.TokenSetString">
+            <summary>Sets the shim of AipServiceBase.set_Token(String value)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAuth">
+            <summary>Shim type of Baidu.Aip.Auth</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAuth.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAuth.#ctor(Baidu.Aip.Auth)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimAuth.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAuth.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimAuth.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAuth.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAuth.CanonicalRequestAipHttpRequest">
+            <summary>Sets the shim of Auth.CanonicalRequest(AipHttpRequest aipHttpRequest)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAuth.CloudRequestAipHttpRequestStringString">
+            <summary>Sets the shim of Auth.CloudRequest(AipHttpRequest aipReq, String ak, String sk)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAuth.Constructor">
+            <summary>Sets the shim of Auth.Auth()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAuth.HexByteArray">
+            <summary>Sets the shim of Auth.Hex(Byte[] data)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimAuth.OpenApiFetchTokenStringStringBoolean">
+            <summary>Sets the shim of Auth.OpenApiFetchToken(String ak, String sk, Boolean throws)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimConsts">
+            <summary>Shim type of Baidu.Aip.Consts</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimConsts.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimConsts.#ctor(Baidu.Aip.Consts)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimConsts.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimConsts.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimConsts.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimConsts.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimConsts.Constructor">
+            <summary>Sets the shim of Consts.Consts()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimConsts.StaticConstructor">
+            <summary>Sets the shim of Consts.Consts()</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimUtils">
+            <summary>Shim type of Baidu.Aip.Utils</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimUtils.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimUtils.#ctor(Baidu.Aip.Utils)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.ShimUtils.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.ShimUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.Constructor">
+            <summary>Sets the shim of Utils.Utils()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.MD5String">
+            <summary>Sets the shim of Utils.MD5(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.ParseQueryStringDictionaryOfStringString">
+            <summary>Sets the shim of Utils.ParseQueryString(Dictionary`2&lt;String,String&gt; querys)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.StreamToBytesStream">
+            <summary>Sets the shim of Utils.StreamToBytes(Stream input)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.UnixTimestamp">
+            <summary>Sets the shim of Utils.UnixTimestamp()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.ShimUtils.UriEncodeStringBoolean">
+            <summary>Sets the shim of Utils.UriEncode(String input, Boolean encodeSlash)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.StubAipException">
+            <summary>Stub type of Baidu.Aip.AipException</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.#ctor(System.Int32,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubAipException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubAipException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.InitializeStub">
+            <summary>Initializes a new instance of type StubAipException</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.StubAipHttpRequest">
+            <summary>Stub type of Baidu.Aip.AipHttpRequest</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipHttpRequest.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipHttpRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipHttpRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubAipHttpRequest</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipHttpRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipHttpRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.StubAipServiceBase">
+            <summary>Stub type of Baidu.Aip.AipServiceBase</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipServiceBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipServiceBase.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipServiceBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.InitializeStub">
+            <summary>Initializes a new instance of type StubAipServiceBase</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipServiceBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubAipServiceBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipServiceBase.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipServiceBase.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubAipServiceBase.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Fakes.StubAipServiceBase.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.StubConsts">
+            <summary>Stub type of Baidu.Aip.Consts</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubConsts.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubConsts.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubConsts.InitializeStub">
+            <summary>Initializes a new instance of type StubConsts</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubConsts.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubConsts.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Baidu.Aip.Fakes.StubUtils">
+            <summary>Stub type of Baidu.Aip.Utils</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubUtils.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubUtils.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Fakes.StubUtils.InitializeStub">
+            <summary>Initializes a new instance of type StubUtils</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubUtils.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Fakes.StubUtils.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn">
+            <summary>Shim type of Baidu.Aip.ImageCensor.AntiPorn</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.#ctor(Baidu.Aip.ImageCensor.AntiPorn)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.AllInstances.DetectByteArray">
+            <summary>Sets the shim of AntiPorn.Detect(Byte[] image)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.AllInstances.DetectGifByteArray">
+            <summary>Sets the shim of AntiPorn.DetectGif(Byte[] image)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.ConstructorStringString">
+            <summary>Sets the shim of AntiPorn.AntiPorn(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.DetectByteArray">
+            <summary>Sets the shim of AntiPorn.Detect(Byte[] image)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiPorn.DetectGifByteArray">
+            <summary>Sets the shim of AntiPorn.DetectGif(Byte[] image)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror">
+            <summary>Shim type of Baidu.Aip.ImageCensor.AntiTerror</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.#ctor(Baidu.Aip.ImageCensor.AntiTerror)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.AllInstances.DetectByteArray">
+            <summary>Sets the shim of AntiTerror.Detect(Byte[] image)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.ConstructorStringString">
+            <summary>Sets the shim of AntiTerror.AntiTerror(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimAntiTerror.DetectByteArray">
+            <summary>Sets the shim of AntiTerror.Detect(Byte[] image)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimBase">
+            <summary>Shim type of Baidu.Aip.ImageCensor.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimBase.#ctor(Baidu.Aip.ImageCensor.Base)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimBase.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimBase.ConstructorStringString">
+            <summary>Sets the shim of Base.Base(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimBase.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimSolution">
+            <summary>Shim type of Baidu.Aip.ImageCensor.Solution</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimSolution.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimSolution.#ctor(Baidu.Aip.ImageCensor.Solution)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances.ComboByteArrayStringArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Solution.Combo(Byte[] image, String[] scenes, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances.ComboPostActionAipHttpRequestStringArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Solution.ComboPostAction(AipHttpRequest aipReq, String[] scenes, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances.ComboStringStringArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Solution.Combo(String imageUrl, String[] scenes, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Solution.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances.FaceAuditByteArrayArrayNullableOfInt64">
+            <summary>Sets the shim of Solution.FaceAudit(Byte[][] images, Nullable`1&lt;Int64&gt; configId)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.AllInstances.FaceAuditStringArrayNullableOfInt64">
+            <summary>Sets the shim of Solution.FaceAudit(String[] images, Nullable`1&lt;Int64&gt; configId)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimSolution.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.ShimSolution.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.ComboByteArrayStringArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Solution.Combo(Byte[] image, String[] scenes, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.ComboPostActionAipHttpRequestStringArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Solution.ComboPostAction(AipHttpRequest aipReq, String[] scenes, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.ComboStringStringArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Solution.Combo(String imageUrl, String[] scenes, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.ConstructorStringString">
+            <summary>Sets the shim of Solution.Solution(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.DefaultRequestString">
+            <summary>Sets the shim of Solution.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.FaceAuditByteArrayArrayNullableOfInt64">
+            <summary>Sets the shim of Solution.FaceAudit(Byte[][] images, Nullable`1&lt;Int64&gt; configId)</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.ShimSolution.FaceAuditStringArrayNullableOfInt64">
+            <summary>Sets the shim of Solution.FaceAudit(String[] images, Nullable`1&lt;Int64&gt; configId)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn">
+            <summary>Stub type of Baidu.Aip.ImageCensor.AntiPorn</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.InitializeStub">
+            <summary>Initializes a new instance of type StubAntiPorn</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiPorn.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror">
+            <summary>Stub type of Baidu.Aip.ImageCensor.AntiTerror</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.InitializeStub">
+            <summary>Initializes a new instance of type StubAntiTerror</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubAntiTerror.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.StubBase">
+            <summary>Stub type of Baidu.Aip.ImageCensor.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubBase.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.InitializeStub">
+            <summary>Initializes a new instance of type StubBase</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubBase.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubBase.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubBase.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubBase.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.ImageCensor.Fakes.StubSolution">
+            <summary>Stub type of Baidu.Aip.ImageCensor.Solution</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubSolution.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubSolution.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubSolution.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.InitializeStub">
+            <summary>Initializes a new instance of type StubSolution</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubSolution.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.ImageCensor.Fakes.StubSolution.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubSolution.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubSolution.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.ImageCensor.Fakes.StubSolution.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.ImageCensor.Fakes.StubSolution.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Kg.Fakes.ShimBase">
+            <summary>Shim type of Baidu.Aip.Kg.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimBase.#ctor(Baidu.Aip.Kg.Base)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Kg.Fakes.ShimBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimBase.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimBase.ConstructorStringString">
+            <summary>Sets the shim of Base.Base(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimBase.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Kg.Fakes.ShimPie">
+            <summary>Shim type of Baidu.Aip.Kg.Pie</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimPie.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimPie.#ctor(Baidu.Aip.Kg.Pie)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances.GetTaskInfoInt32">
+            <summary>Sets the shim of Pie.GetTaskInfo(Int32 taskId)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances.GetTaskStatusInt32">
+            <summary>Sets the shim of Pie.GetTaskStatus(Int32 id)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances.GetTasksDictionaryOfStringObject">
+            <summary>Sets the shim of Pie.GetTasks(Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances.StartTaskInt32">
+            <summary>Sets the shim of Pie.StartTask(Int32 id)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances.TaskCreateStringStringStringStringStringDictionaryOfStringObject">
+            <summary>Sets the shim of Pie.TaskCreate(String name, String templateContent, String inputMappingFile, String urlPattern, String outputFile, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.AllInstances.UpdateTaskInt32DictionaryOfStringObject">
+            <summary>Sets the shim of Pie.UpdateTask(Int32 id, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimPie.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.ShimPie.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.ConstructorStringString">
+            <summary>Sets the shim of Pie.Pie(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.GetTaskInfoInt32">
+            <summary>Sets the shim of Pie.GetTaskInfo(Int32 taskId)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.GetTaskStatusInt32">
+            <summary>Sets the shim of Pie.GetTaskStatus(Int32 id)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.GetTasksDictionaryOfStringObject">
+            <summary>Sets the shim of Pie.GetTasks(Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.StartTaskInt32">
+            <summary>Sets the shim of Pie.StartTask(Int32 id)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.TaskCreateStringStringStringStringStringDictionaryOfStringObject">
+            <summary>Sets the shim of Pie.TaskCreate(String name, String templateContent, String inputMappingFile, String urlPattern, String outputFile, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.ShimPie.UpdateTaskInt32DictionaryOfStringObject">
+            <summary>Sets the shim of Pie.UpdateTask(Int32 id, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Kg.Fakes.StubBase">
+            <summary>Stub type of Baidu.Aip.Kg.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.StubBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubBase.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.InitializeStub">
+            <summary>Initializes a new instance of type StubBase</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.StubBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.StubBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubBase.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubBase.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubBase.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubBase.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Kg.Fakes.StubPie">
+            <summary>Stub type of Baidu.Aip.Kg.Pie</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.StubPie.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubPie.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubPie.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.InitializeStub">
+            <summary>Initializes a new instance of type StubPie</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.StubPie.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Kg.Fakes.StubPie.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubPie.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubPie.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Kg.Fakes.StubPie.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Kg.Fakes.StubPie.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Nlp.Fakes.ShimNlp">
+            <summary>Shim type of Baidu.Aip.Nlp.Nlp</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.ShimNlp.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.ShimNlp.#ctor(Baidu.Aip.Nlp.Nlp)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.CommentTagStringInt32">
+            <summary>Sets the shim of Nlp.CommentTag(String text, Int32 type)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.DNN_LM_CnString">
+            <summary>Sets the shim of Nlp.DNN_LM_Cn(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Nlp.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.DepParserStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.DepParser(String text, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.LexerString">
+            <summary>Sets the shim of Nlp.Lexer(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.SentimentClassifyString">
+            <summary>Sets the shim of Nlp.SentimentClassify(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.SimnetStringStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.Simnet(String text1, String text2, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.WordEmbeddingSimilarityStringStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.WordEmbeddingSimilarity(String word1, String word2, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.WordEmbeddingVectorStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.WordEmbeddingVector(String query, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.WordPosString">
+            <summary>Sets the shim of Nlp.WordPos(String query)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.AllInstances.WordSegStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.WordSeg(String query, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.ShimNlp.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.ShimNlp.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.CommentTagStringInt32">
+            <summary>Sets the shim of Nlp.CommentTag(String text, Int32 type)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.ConstructorStringString">
+            <summary>Sets the shim of Nlp.Nlp(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.DNN_LM_CnString">
+            <summary>Sets the shim of Nlp.DNN_LM_Cn(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.DefaultRequestString">
+            <summary>Sets the shim of Nlp.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.DepParserStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.DepParser(String text, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.LexerString">
+            <summary>Sets the shim of Nlp.Lexer(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.SentimentClassifyString">
+            <summary>Sets the shim of Nlp.SentimentClassify(String text)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.SimnetStringStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.Simnet(String text1, String text2, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.WordEmbeddingSimilarityStringStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.WordEmbeddingSimilarity(String word1, String word2, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.WordEmbeddingVectorStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.WordEmbeddingVector(String query, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.WordPosString">
+            <summary>Sets the shim of Nlp.WordPos(String query)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.ShimNlp.WordSegStringDictionaryOfStringObject">
+            <summary>Sets the shim of Nlp.WordSeg(String query, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Nlp.Fakes.StubNlp">
+            <summary>Stub type of Baidu.Aip.Nlp.Nlp</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.StubNlp.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Nlp.Fakes.StubNlp.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Nlp.Fakes.StubNlp.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.InitializeStub">
+            <summary>Initializes a new instance of type StubNlp</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.StubNlp.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Nlp.Fakes.StubNlp.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Nlp.Fakes.StubNlp.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Nlp.Fakes.StubNlp.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Nlp.Fakes.StubNlp.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Nlp.Fakes.StubNlp.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.ShimBase">
+            <summary>Shim type of Baidu.Aip.Ocr.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimBase.#ctor(Baidu.Aip.Ocr.Base)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.ShimBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimBase.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimBase.ConstructorStringString">
+            <summary>Sets the shim of Base.Base(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimBase.DefaultRequestString">
+            <summary>Sets the shim of Base.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.ShimForm">
+            <summary>Shim type of Baidu.Aip.Ocr.Form</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimForm.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimForm.#ctor(Baidu.Aip.Ocr.Form)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances.BeginRecognitionByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Form.BeginRecognition(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances.GetRecognitionResultStringDictionaryOfStringObject">
+            <summary>Sets the shim of Form.GetRecognitionResult(String requestId, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances.LogString">
+            <summary>Sets the shim of Form.Log(String msg)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances.RecognizeByteArrayInt64DictionaryOfStringObjectDictionaryOfStringObject">
+            <summary>Sets the shim of Form.Recognize(Byte[] image, Int64 timeoutMiliseconds, Dictionary`2&lt;String,Object&gt; beginOptions, Dictionary`2&lt;String,Object&gt; resultOptions)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances.RecognizeToExcelByteArrayInt64DictionaryOfStringObjectDictionaryOfStringObject">
+            <summary>Sets the shim of Form.RecognizeToExcel(Byte[] image, Int64 timeoutMiliseconds, Dictionary`2&lt;String,Object&gt; beginOptions, Dictionary`2&lt;String,Object&gt; resultOptions)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.AllInstances.RecognizeToJsonByteArrayInt64DictionaryOfStringObjectDictionaryOfStringObject">
+            <summary>Sets the shim of Form.RecognizeToJson(Byte[] image, Int64 timeoutMiliseconds, Dictionary`2&lt;String,Object&gt; beginOptions, Dictionary`2&lt;String,Object&gt; resultOptions)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.BeginRecognitionByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Form.BeginRecognition(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimForm.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimForm.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.ConstructorStringString">
+            <summary>Sets the shim of Form.Form(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.GetRecognitionResultStringDictionaryOfStringObject">
+            <summary>Sets the shim of Form.GetRecognitionResult(String requestId, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.LogString">
+            <summary>Sets the shim of Form.Log(String msg)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.RecognizeByteArrayInt64DictionaryOfStringObjectDictionaryOfStringObject">
+            <summary>Sets the shim of Form.Recognize(Byte[] image, Int64 timeoutMiliseconds, Dictionary`2&lt;String,Object&gt; beginOptions, Dictionary`2&lt;String,Object&gt; resultOptions)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.RecognizeToExcelByteArrayInt64DictionaryOfStringObjectDictionaryOfStringObject">
+            <summary>Sets the shim of Form.RecognizeToExcel(Byte[] image, Int64 timeoutMiliseconds, Dictionary`2&lt;String,Object&gt; beginOptions, Dictionary`2&lt;String,Object&gt; resultOptions)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimForm.RecognizeToJsonByteArrayInt64DictionaryOfStringObjectDictionaryOfStringObject">
+            <summary>Sets the shim of Form.RecognizeToJson(Byte[] image, Int64 timeoutMiliseconds, Dictionary`2&lt;String,Object&gt; beginOptions, Dictionary`2&lt;String,Object&gt; resultOptions)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.ShimOcr">
+            <summary>Shim type of Baidu.Aip.Ocr.Ocr</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimOcr.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimOcr.#ctor(Baidu.Aip.Ocr.Ocr)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.BankCardByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.BankCard(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Ocr.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.DrivingLicenseByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.DrivingLicense(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.GeneralBasicByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.GeneralBasic(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.GeneralEnhancedByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.GeneralEnhanced(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.GeneralWithLocatinByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.GeneralWithLocatin(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.IdCardBackByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.IdCardBack(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.IdCardFrontByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.IdCardFront(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.VehicleLicenseByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.VehicleLicense(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.AllInstances.WebImageByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.WebImage(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.BankCardByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.BankCard(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimOcr.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.ShimOcr.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.ConstructorStringString">
+            <summary>Sets the shim of Ocr.Ocr(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.DefaultRequestString">
+            <summary>Sets the shim of Ocr.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.DrivingLicenseByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.DrivingLicense(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.GeneralBasicByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.GeneralBasic(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.GeneralEnhancedByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.GeneralEnhanced(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.GeneralWithLocatinByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.GeneralWithLocatin(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.IdCardBackByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.IdCardBack(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.IdCardFrontByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.IdCardFront(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.StaticConstructor">
+            <summary>Sets the shim of Ocr.Ocr()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.VehicleLicenseByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.VehicleLicense(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.ShimOcr.WebImageByteArrayDictionaryOfStringObject">
+            <summary>Sets the shim of Ocr.WebImage(Byte[] image, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.StubBase">
+            <summary>Stub type of Baidu.Aip.Ocr.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubBase.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.InitializeStub">
+            <summary>Initializes a new instance of type StubBase</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubBase.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubBase.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubBase.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubBase.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.StubForm">
+            <summary>Stub type of Baidu.Aip.Ocr.Form</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubForm.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubForm.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubForm.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.InitializeStub">
+            <summary>Initializes a new instance of type StubForm</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubForm.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubForm.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.Log(System.String)">
+            <summary>Sets the stub of Form.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubForm.LogString">
+            <summary>Sets the stub of Form.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubForm.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubForm.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubForm.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Ocr.Fakes.StubOcr">
+            <summary>Stub type of Baidu.Aip.Ocr.Ocr</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubOcr.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.DoAuthorization">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubOcr.DoAuthorization01">
+            <summary>Sets the stub of AipServiceBase.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubOcr.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.InitializeStub">
+            <summary>Initializes a new instance of type StubOcr</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubOcr.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Ocr.Fakes.StubOcr.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubOcr.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubOcr.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Ocr.Fakes.StubOcr.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Ocr.Fakes.StubOcr.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimAsr">
+            <summary>Shim type of Baidu.Aip.Speech.Asr</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimAsr.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimAsr.#ctor(Baidu.Aip.Speech.Asr)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimAsr.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Asr.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.AllInstances.RecoginzeStringStringStringInt32DictionaryOfStringObject">
+            <summary>Sets the shim of Asr.Recoginze(String url, String callback, String format, Int32 rate, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.AllInstances.RecognizeByteArrayStringInt32DictionaryOfStringObject">
+            <summary>Sets the shim of Asr.Recognize(Byte[] data, String format, Int32 rate, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimAsr.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimAsr.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.ConstructorStringString">
+            <summary>Sets the shim of Asr.Asr(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.DefaultRequestString">
+            <summary>Sets the shim of Asr.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.RecoginzeStringStringStringInt32DictionaryOfStringObject">
+            <summary>Sets the shim of Asr.Recoginze(String url, String callback, String format, Int32 rate, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimAsr.RecognizeByteArrayStringInt32DictionaryOfStringObject">
+            <summary>Sets the shim of Asr.Recognize(Byte[] data, String format, Int32 rate, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimBase">
+            <summary>Shim type of Baidu.Aip.Speech.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimBase.#ctor(Baidu.Aip.Speech.Base)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.AllInstances.CuidGet">
+            <summary>Sets the shim of Base.get_Cuid()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.AllInstances.DoAuthorization">
+            <summary>Sets the shim of Base.DoAuthorization()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.AllInstances.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the shim of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.ConstructorStringString">
+            <summary>Sets the shim of Base.Base(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.CuidGet">
+            <summary>Sets the shim of Base.get_Cuid()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.DoAuthorization">
+            <summary>Sets the shim of Base.DoAuthorization()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the shim of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimTts">
+            <summary>Shim type of Baidu.Aip.Speech.Tts</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTts.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTts.#ctor(Baidu.Aip.Speech.Tts)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimTts.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.AllInstances.DefaultRequestString">
+            <summary>Sets the shim of Tts.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.AllInstances.PostActionAipHttpRequest">
+            <summary>Sets the shim of Tts.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.AllInstances.SynthesisStringDictionaryOfStringObject">
+            <summary>Sets the shim of Tts.Synthesis(String text, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTts.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTts.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.ConstructorStringString">
+            <summary>Sets the shim of Tts.Tts(String apiKey, String secretKey)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.DefaultRequestString">
+            <summary>Sets the shim of Tts.DefaultRequest(String uri)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.PostActionAipHttpRequest">
+            <summary>Sets the shim of Tts.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTts.SynthesisStringDictionaryOfStringObject">
+            <summary>Sets the shim of Tts.Synthesis(String text, Dictionary`2&lt;String,Object&gt; options)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimTtsResponse">
+            <summary>Shim type of Baidu.Aip.Speech.TtsResponse</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTtsResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTtsResponse.#ctor(Baidu.Aip.Speech.TtsResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.DataGet">
+            <summary>Sets the shim of TtsResponse.get_Data()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.DataSetByteArray">
+            <summary>Sets the shim of TtsResponse.set_Data(Byte[] value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.ErrorCodeGet">
+            <summary>Sets the shim of TtsResponse.get_ErrorCode()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.ErrorCodeSetInt32">
+            <summary>Sets the shim of TtsResponse.set_ErrorCode(Int32 value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.ErrorMsgGet">
+            <summary>Sets the shim of TtsResponse.get_ErrorMsg()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.ErrorMsgSetString">
+            <summary>Sets the shim of TtsResponse.set_ErrorMsg(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.IdxGet">
+            <summary>Sets the shim of TtsResponse.get_Idx()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.IdxSetInt32">
+            <summary>Sets the shim of TtsResponse.set_Idx(Int32 value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.SnGet">
+            <summary>Sets the shim of TtsResponse.get_Sn()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.SnSetString">
+            <summary>Sets the shim of TtsResponse.set_Sn(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.AllInstances.SuccessGet">
+            <summary>Sets the shim of TtsResponse.get_Success()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTtsResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.ShimTtsResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.Constructor">
+            <summary>Sets the shim of TtsResponse.TtsResponse()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.DataGet">
+            <summary>Sets the shim of TtsResponse.get_Data()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.DataSetByteArray">
+            <summary>Sets the shim of TtsResponse.set_Data(Byte[] value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.ErrorCodeGet">
+            <summary>Sets the shim of TtsResponse.get_ErrorCode()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.ErrorCodeSetInt32">
+            <summary>Sets the shim of TtsResponse.set_ErrorCode(Int32 value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.ErrorMsgGet">
+            <summary>Sets the shim of TtsResponse.get_ErrorMsg()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.ErrorMsgSetString">
+            <summary>Sets the shim of TtsResponse.set_ErrorMsg(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.IdxGet">
+            <summary>Sets the shim of TtsResponse.get_Idx()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.IdxSetInt32">
+            <summary>Sets the shim of TtsResponse.set_Idx(Int32 value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.SnGet">
+            <summary>Sets the shim of TtsResponse.get_Sn()</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.SnSetString">
+            <summary>Sets the shim of TtsResponse.set_Sn(String value)</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.ShimTtsResponse.SuccessGet">
+            <summary>Sets the shim of TtsResponse.get_Success()</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.StubAsr">
+            <summary>Stub type of Baidu.Aip.Speech.Asr</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubAsr.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.DoAuthorization">
+            <summary>Sets the stub of Base.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubAsr.DoAuthorization01">
+            <summary>Sets the stub of Base.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubAsr.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.InitializeStub">
+            <summary>Initializes a new instance of type StubAsr</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubAsr.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubAsr.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubAsr.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubAsr.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubAsr.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubAsr.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.StubBase">
+            <summary>Stub type of Baidu.Aip.Speech.Base</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.DoAuthorization">
+            <summary>Sets the stub of Base.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubBase.DoAuthorization01">
+            <summary>Sets the stub of Base.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubBase.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.InitializeStub">
+            <summary>Initializes a new instance of type StubBase</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubBase.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubBase.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubBase.PostAction(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubBase.PostActionAipHttpRequest">
+            <summary>Sets the stub of AipServiceBase.PostAction(AipHttpRequest aipReq)</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.StubTts">
+            <summary>Stub type of Baidu.Aip.Speech.Tts</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTts.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubTts.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTts.DoAuthorization">
+            <summary>Sets the stub of Base.DoAuthorization()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubTts.DoAuthorization01">
+            <summary>Sets the stub of Base.DoAuthorization()</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTts.GenerateWebRequest(Baidu.Aip.AipHttpRequest)">
+            <summary>Sets the stub of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubTts.GenerateWebRequestAipHttpRequest">
+            <summary>Sets the stub of Base.GenerateWebRequest(AipHttpRequest aipRequest)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTts.InitializeStub">
+            <summary>Initializes a new instance of type StubTts</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubTts.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubTts.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTts.Log(System.String)">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubTts.LogString">
+            <summary>Sets the stub of AipServiceBase.Log(String msg)</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTts.NeetAuth">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="F:Baidu.Aip.Speech.Fakes.StubTts.NeetAuth01">
+            <summary>Sets the stub of AipServiceBase.NeetAuth()</summary>
+        </member>
+        <member name="T:Baidu.Aip.Speech.Fakes.StubTtsResponse">
+            <summary>Stub type of Baidu.Aip.Speech.TtsResponse</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTtsResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubTtsResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Baidu.Aip.Speech.Fakes.StubTtsResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubTtsResponse</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubTtsResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Baidu.Aip.Speech.Fakes.StubTtsResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

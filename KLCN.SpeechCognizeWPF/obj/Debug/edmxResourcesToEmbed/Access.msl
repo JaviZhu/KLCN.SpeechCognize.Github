@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ApplicationTestModelStoreContainer" CdmEntityContainer="ApplicationTestEntities">
+    <EntitySetMapping Name="KLCN_Tab_SpeechRecognition">
+      <EntityTypeMapping TypeName="ApplicationTestModel.KLCN_Tab_SpeechRecognition">
+        <MappingFragment StoreEntitySet="KLCN_Tab_SpeechRecognition">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="AttachmentURI" ColumnName="AttachmentURI" />
+          <ScalarProperty Name="AttachmentContentType" ColumnName="AttachmentContentType" />
+          <ScalarProperty Name="MsgId" ColumnName="MsgId" />
+          <ScalarProperty Name="UserobjectId" ColumnName="UserobjectId" />
+          <ScalarProperty Name="PhysicsURI" ColumnName="PhysicsURI" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="CurrentDirectory" ColumnName="CurrentDirectory" />
+          <ScalarProperty Name="Datetime" ColumnName="Datetime" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

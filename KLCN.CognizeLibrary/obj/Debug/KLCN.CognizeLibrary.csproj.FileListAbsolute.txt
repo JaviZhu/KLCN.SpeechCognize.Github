@@ -1,0 +1,8 @@
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\bin\Debug\KLCN.CognizeLibrary.dll
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\bin\Debug\KLCN.CognizeLibrary.pdb
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\bin\Debug\AipSdk.dll
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\bin\Debug\Yunpian.dll
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\obj\Debug\KLCN.CognizeLibrary.csproj.CoreCompileInputs.cache
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\obj\Debug\KLCN.CognizeLibrary.dll
+C:\Z_Disk\document\source\KLCN.SpeechCognize\KLCN.CognizeLibrary\obj\Debug\KLCN.CognizeLibrary.pdb
